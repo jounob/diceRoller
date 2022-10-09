@@ -7,12 +7,21 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-   <ImageView
-       android:id="@+id/ivDice"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_gravity="center"
-       android:src="@drawable/dice_1"/>
+  <ImageView
+        android:id="@+id/ivDice"
+        android:layout_width="165dp"
+        android:layout_height="139dp"
+        android:layout_gravity="center"
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_1" />
+
+    <ImageView
+        android:id="@+id/ivDice2"
+        android:layout_width="165dp"
+        android:layout_height="139dp"
+        android:layout_gravity="center"
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_1" />
     <Button
         android:id="@+id/roll_button"
         android:layout_width="wrap_content"
@@ -20,13 +29,13 @@
         android:text="@string/roll_label"
         android:gravity="center"/>
 
-    <Button
-        android:id="@+id/btnCount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Count"
-        android:gravity="center"
-        />
+<!--    <Button-->
+<!--        android:id="@+id/btnCount"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Count"-->
+<!--        android:gravity="center"-->
+<!--        />-->
     <Button
         android:id="@+id/btnReset"
         android:layout_width="wrap_content"
